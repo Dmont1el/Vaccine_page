@@ -1,0 +1,449 @@
+:root {
+    --color:rgb(65, 65, 206);
+    --fuente: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor h1 {
+    font-size: 2.5rem;
+    color: var(--color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacion_principal a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    margin-left: 4rem;
+    font-family: var(--fuente);
+    color: gray;
+}
+
+.btnHoax {
+    width: 13rem;
+    height: 4rem;
+    color: white;
+    font-size: 1.6rem;
+    margin-left: 5rem;
+    background-color: rgb(65, 65, 206);
+    border-radius: .7rem;
+    border: none;
+    box-shadow: 14px 22px 32px 6px rgba(0,0,0,0.16);
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.btnHoax:hover {
+    background-color: white;
+    color: rgb(65, 65, 206);
+    border: 1px solid rgb(65, 65, 206);
+    cursor: pointer;
+}
+
+.imagen1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.enfermera {
+    width: 50rem;
+    height: 45rem;
+    margin-top: 5rem;
+    background-image: url(/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenido1 {
+    width: 40%;
+    padding-left: 20rem;
+    margin-top: 10rem;
+    font-family: var(--fuente);
+}
+
+.contenido1 h1 {
+    color: var(--color);
+    font-size: 3.5rem;
+}
+
+.contenido1 p {
+    text-align: justify;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.parrafos {
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20rem;
+    font-family: var(--fuente);
+    font-size: 1rem;
+}
+
+.parrafo1 {
+    margin-top: -20rem;
+}
+
+.parrafo2 {
+    margin-top: -20rem;
+}
+
+.fa-solid {
+    margin-right: .5rem;
+    color: gold;
+}
+
+.shedule {
+    margin-top: -15rem;
+    padding-left: 19rem;
+    font-size: 2rem;
+    font-family: var(--fuente);
+}
+
+.fa-clock {
+    color: var(--color);
+    margin-right: 1rem;
+}
+
+.date {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(255, 255, 255, 0.979);
+    box-shadow: 1px -3px 67px -34px rgba(0,0,0,1);
+    margin-left: 7rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.date_location,
+.date_vaccine,
+.date_btn,
+.date_date {
+    background-color: rgba(255, 255, 255, 0.979);
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: var(--fuente);
+    border-radius: 1rem;
+    margin-left: -2rem;
+}
+
+.date_location h3,
+.date_vaccine h3,
+.date_btn h3,
+.date_date h3 {
+    color: gray;
+}
+
+.fa-calendar-days,
+.fa-syringe,
+.fa-location-dot {
+    color: var(--color);
+}
+
+.btnInput {
+    width: 9rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2.4rem;
+    margin-left: 2rem;
+    background-color: rgb(65, 65, 206);
+    border-radius: .7rem;
+    border: none;
+    box-shadow: 14px 22px 32px 6px rgba(0,0,0,0.16);
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.btnInput:hover {
+    background-color: white;
+    color: rgb(65, 65, 206);
+    border: 1px solid rgb(65, 65, 206);
+    cursor: pointer;
+}
+
+.aztra {
+    width: 30%;
+    margin-left: 40rem;
+    margin-bottom: 4rem;
+    opacity: 0.3;
+    }
+
+.why{
+    padding-left: 7rem;
+    width: 25%;
+}
+
+.why h1{
+    color: var(--color);
+    font-family: var(--fuente);   
+    font-size: 2.5rem;
+}
+
+.why p{
+    text-align: justify;
+    font-family: var(--fuente);   
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 14rem;
+    padding-right: 5rem;
+    gap: 2rem;
+    height: 10rem;
+    width: 90rem;
+    margin-top: 5rem;
+}
+
+.Minimize{
+    box-shadow: 10px 28px 53px 32px rgba(70, 67, 67, 0.13);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.Minimize h2 {
+    color: black;
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.Minimize p {
+    font-size: 1rem;
+    font-family: var(--fuente);
+    color: gray;
+    margin-top: 2rem;
+}
+
+.fa-list,
+.fa-chart-line,
+.fa-users,
+.fa-shield-blank{
+    color: var(--color);
+    font-size: 2rem;
+}
+
+.imagen2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cliente {
+    width: 50rem;
+    height: 45rem;
+    margin-top: 20rem;
+    background-image: url(/mujer1.png);  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    margin-top: 15rem;
+}
+
+.info h1 {
+    font-family: var(--fuente);
+    color: var(--color);
+    font-size: 3rem;
+}
+
+.info p {
+    font-family: var(--fuente);
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.info1 h2 {
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+    font-family: var(--fuente);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.info1 {
+    box-shadow: -7px 7px 47px -20px rgba(0,0,0,0.46);
+    height: 3rem;
+    width: 30rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+
+.info2 {
+    width: 60%;
+    height: 8rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    box-shadow: -7px 7px 47px -20px rgba(0,0,0,0.46);
+    border-radius: 1rem;
+}
+
+.info2 h2 {
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.info2 p {
+    font-size: 1.2rem;
+    font-family: var(--fuente);
+}
+
+.fa-rectangle-xmark {
+    color: var(--color);
+}
+
+.fa-square-poll-vertical,
+.fa-circle-check,
+.fa-heart {
+    color: var(--color);
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+
+.enfermero {
+    width: 50rem;
+    height: 45rem;
+    margin-top: 5rem;
+    background-image: url(/enfermero.png);  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.emergency {
+    padding: 5rem;
+    margin-top:rem;
+    width: 40rem;
+}
+
+.emergency h1 {
+    color: var(--color);
+    font-family: var(--fuente);
+    font-size: 3rem;
+}
+
+.emergency p {
+    color: gray;
+    font-family: var(--fuente);
+    font-size: 1.5rem;
+}
+
+.emergency_icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 7rem;
+    margin: 0;
+    margin-top: -10rem;
+}
+
+.iconos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 17rem;
+}
+
+.iconos h2 {
+    font-size: 2rem;
+    font-family: var(--fuente);
+}
+
+.iconos p {
+    font-family: var(--fuente);
+    font-size: 1rem;
+}
+
+.icons1 {
+    width: 40%;
+    height: 10rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: -7px 7px 47px -20px rgba(0,0,0,0.46);
+    padding: 2rem;
+}
+
+.fa-phone,
+.fa-video,
+.fa-comment-dots,
+.fa-envelope {
+    color: var(--color);
+    font-size: 2rem;
+}
+
+.btnCall {
+    font-family: var(--fuente);
+    background-color: var(--color);
+    color: white;
+    width: 10rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    margin-top: .6rem;
+    border: none;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.btnCall:hover {
+    color: var(--color);
+    background-color: white;
+    border: var(--color);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(227, 227, 246);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: var(--fuente);
+    margin-top: 5rem;
+}
+
+.footer h1 {
+    color: var(--color);
+    font-size: 3rem;
+}
+
+.footer h2 {
+    margin-left: 2.4rem;
+    font-size: 2rem;
+    color: var(--color);
+}
+
+.footer p {
+    font-size: 1.4rem;
+    color: gray;
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer li {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.footer1 {
+    width: 13rem;
+}
